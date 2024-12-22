@@ -1,7 +1,12 @@
+@font-face {
+   font-family: myfont;
+   
+   src: url(Marzan\ Bold\ DEMO.ttf);
+}
 body{
-  
-   background-color: black;
-   color: white;  
+background-color: black;
+   color: white; 
+   
 }
 .outer-container{
    display: flex;
@@ -13,7 +18,7 @@ body{
    font-weight: bold;
    font-family: monospace;
    font-size: 40px;
-   margin-left: 20px;
+   margin-left: 100px;
 }
 .Nav-bar{
    position: fixed;
@@ -40,4 +45,57 @@ body{
 .Nav-bar ul li:hover{
    cursor: pointer;
    color:rgb(26, 213, 85);
+   transition: 0.4s;
 }  
+.body-container{
+   display: flex;
+   flex-direction: row;
+   
+}
+p{
+   margin: 0px;
+   padding: 0px;
+}
+.hello{
+   font-family: myFont;
+   font-size: 40px;
+   letter-spacing: 3px;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+.intro{
+   font-family: myFont;
+   margin-left: 100px;
+   font-size: 40px;
+   letter-spacing: 7px;
+}
+
+.about{
+   margin-left:100px;
+   font-size: 18px;
+}
+.contact{
+   padding: 10px 20px;
+   margin: 10px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid white;
+   background-color:transparent;
+   cursor: pointer;
+   margin-left: 100px;
+   transition: 0.4s;
+   margin-top: 20px;
+}
+.contact:hover{
+color: rgb(136, 245, 122);
+}
+.profile-pic{
+   margin-right: 190px;
+   margin-top: 60px;
+   border-radius:10px;
+ 
+   
+  
+}
+
+

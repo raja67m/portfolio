@@ -20,7 +20,7 @@ body,ul{
    display: flex;
    justify-content:end;
    align-items: center;
-   padding: 15px 0;
+   padding: 15px;
    margin: 5px;
    
 }
@@ -29,15 +29,17 @@ body,ul{
    gap: 70px;
    list-style: none;
 }
-.Nav-bar li{
+.Nav-bar li,a{
+   color: white;
    cursor: pointer;
    font-family: monospace;
    font-size: 20px;
    font-weight: bold;
    transition: .4s ease-in-out;
+   text-decoration: none;
 }
-.Nav-bar li:hover{
-   color: greenyellow;
+.Nav-bar li,a:hover{
+   color: rgb(234, 59, 179);
 }
 .body-container{
    display: flex;
@@ -81,7 +83,7 @@ body,ul{
    
 }
 .contact:hover{
-color: rgb(136, 245, 122);
+color: rgb(234, 59, 179);
 }
 .profile-pic{
   width:80%;
@@ -89,16 +91,20 @@ color: rgb(136, 245, 122);
   border-width: 10px; 
   border-radius: 12px;
   margin-left:10%;
+  cursor: pointer;
 }
 .icons{
    display: flex;
    gap: 15px;
-   margin-left: 50px;
+   margin-top:20px;
 }
 .icons a{
    font-size: 24px;
    color: white;
    text-decoration: none;
+}
+.icons a:hover{
+   color: rgb(234, 59, 179);
 }
 /* Responsive Design*/
 @media screen and (max-width : 768px){

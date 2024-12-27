@@ -39,7 +39,7 @@ h1{
    list-style-type: none;
 }
 .header li,a:hover{
-   color: greenyellow;
+   color:rgb(231, 9, 150);
 }
 p{
 margin: 0px;
